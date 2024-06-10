@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Palette 🎨🖌️"
+        android:textSize="38dp"
+        android:textAlignment="center"
+        android:layout_y="50dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive">
+    </TextView>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Cyan"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"
+        android:layout_x="15dp"
+        android:layout_y="180dp"
+        android:onClick="cyan"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Snow"
+        android:layout_x="215dp"
+        android:layout_y="180dp"
+        android:onClick="snow"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Moccasin"
+        android:layout_x="15dp"
+        android:layout_y="280dp"
+        android:onClick="Moccasin"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="SeaGreen"
+        android:layout_x="215dp"
+        android:layout_y="280dp"
+        android:onClick="SeaGreen"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Bisque"
+        android:layout_x="15dp"
+        android:layout_y="380dp"
+        android:onClick="Bisque"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Gold"
+        android:layout_x="215dp"
+        android:layout_y="380dp"
+        android:onClick="Gold"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="LightPink"
+        android:layout_x="15dp"
+        android:layout_y="480dp"
+        android:onClick="LightPink"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Fuchsia"
+        android:layout_x="215dp"
+        android:layout_y="480dp"
+        android:onClick="Fuchsia"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Violet"
+        android:layout_x="15dp"
+        android:layout_y="580dp"
+        android:onClick="Violet"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="RosyBrown"
+        android:layout_x="215dp"
+        android:layout_y="580dp"
+        android:onClick="RosyBrown"
+        android:textSize="18dp"
+        android:backgroundTint="#D1DAD7"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color platter made by me!"
+        android:textAlignment="center"
+        android:layout_y="760dp"
+        android:textSize="13dp"
+        ></TextView>
+</AbsoluteLayout>
